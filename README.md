@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # CastLabs
 Website Deployment for CastLabs
 =======
@@ -37,3 +38,5 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 >>>>>>> 8a7f1bb (Deployment of CastLabs website v 1.0)
+=======
+>>>>>>> b924b3d (Updated readme.md)
