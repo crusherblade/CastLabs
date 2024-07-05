@@ -9,7 +9,7 @@ require('dotenv').config();
 
 // server used to send send emails
 const app = express();
-app.use(express.static(path.resolve(__dirname, '../build')));
+app.use(express.static(path.resolve(__dirname, '../personal-portfolio/build')));
 app.use(cors());
 app.use(bodyParser.json());
 
@@ -58,7 +58,7 @@ app.post("/api/contact", bodyParser.urlencoded({ extended: false}), (req, res) =
 });
 
 app.get('*', (req,res) => {
-  res.sendFile(path.resolve(__dirname,'../build', 'index.html'));
+  res.sendFile(path.resolve(__dirname,'../personal-portfolio/build', 'index.html'));
 })
 app.listen(PORT, () => {
   console.log(`Server Running on port: ${PORT}`);
